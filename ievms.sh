@@ -224,7 +224,7 @@ find_ga() {
     local dev_iso="VBoxGuestAdditions_${major_minor_release}.iso"
     local url="http://download.virtualbox.org/virtualbox/${major_minor_release}/${dev_iso}"
     ga_iso="${ievms_home}/${dev_iso}"
-    download "VirtualBox Guest Additions ISO" "${url}" "${ga_iso}" "8cf1af35478905ea29828954ddb2c5ee"
+    download "VirtualBox Guest Additions ISO" "${url}" "${ga_iso}" "54fb52bd79b706a2c8cf520530a527c5"
 }
 
 # Attach a dvd image to the virtual machine.
